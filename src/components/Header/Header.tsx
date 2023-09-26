@@ -1,3 +1,5 @@
+import {Link} from 'preact-router';
+
 export default function ():any {
 <header>
   <nav>

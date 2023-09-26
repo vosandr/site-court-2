@@ -1,6 +1,10 @@
 import 'index.css'
 import { render } from 'preact'
 import App from 'App';
-import { Router } from 'preact-router';
+import { BrowserRouter } from 'preact-router';
 
-render(<App/>, document.getElementById('root') as Element)
+render((
+    <BrowserRouter>
+    <App/>
+    </BrowserRouter>)
+, document.getElementById('root') as Element)
