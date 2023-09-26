@@ -5,6 +5,5 @@ import { BrowserRouter } from 'preact-router';
 
 render((
     <BrowserRouter>
-    <App/>
-    </BrowserRouter>)
-, document.getElementById('root') as Element)
+        <App/>
+    </BrowserRouter>), document.getElementById('root') as Element)
