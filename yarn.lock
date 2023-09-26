@@ -8397,6 +8397,7 @@ __metadata:
     jotai: ^2.3.1
     postcss: ^8.4.28
     preact: ^10.17.1
+    preact-router: ^4.1.2
     prettier: ^3.0.2
     react-scripts: ^5.0.1
     rollup-plugin-visualizer: ^5.9.2
@@ -13008,6 +13009,15 @@ __metadata:
     picocolors: ^1.0.0
     source-map-js: ^1.0.2
   checksum: f605c24a36f7e400bad379735fbfc893ccb8d293ad6d419bb824db77cdcb69f43d614ef35f9f7091f32ca588d130ec60dbcf53b366e6bf88a8a64bbeb3c05f6d
+  languageName: node
+  linkType: hard
+
+"preact-router@npm:^4.1.2":
+  version: 4.1.2
+  resolution: "preact-router@npm:4.1.2"
+  peerDependencies:
+    preact: ">=10"
+  checksum: d690ba373f11aef9582906c844e31a5366623ed6e0e69b01e55170c07fd5f4d91227c2d247276ef9245ef88e688b7f7427e715bbc9d0f613361ecd6dad11f659
   languageName: node
   linkType: hard
 
