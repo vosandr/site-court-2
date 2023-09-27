@@ -1,0 +1,17 @@
+nav {
+  /* grid, bg-slate-400, grid-flow-col-dense */
+  display: grid;
+  grid-auto-flow: column dense;
+  background-color: #94a3b8;
+}
+.Link {
+  /* border-gray-800, border-2 */
+  border-color: #1f2937;
+  border-width: 1px;
+}
+
+.Link:hover {
+  /* hover:bg-slate-500 */
+  background-color: #64748b;
+}
+

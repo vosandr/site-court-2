@@ -1,9 +1,7 @@
 import 'index.css'
-import { render } from 'preact'
+import { h, render } from 'preact'
+import { useEffect } from 'preact/hooks';
 import App from 'App';
-import { BrowserRouter } from 'preact-router';
+import BrowserRouter from 'preact-router';
 
-render((
-    <BrowserRouter>
-        <App/>
-    </BrowserRouter>), document.getElementById('root') as Element)
+render((<App/>), document.getElementById('root') as Element)

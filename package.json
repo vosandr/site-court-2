@@ -10,6 +10,7 @@
     "preview": "yarn build && yarn vite preview"
   },
   "dependencies": {
+    "@babel/plugin-transform-react-jsx-source": "^7.22.5",
     "jotai": "^2.3.1",
     "preact": "^10.17.1",
     "preact-router": "^4.1.2"

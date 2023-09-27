@@ -8377,6 +8377,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "frontend-starter@workspace:."
   dependencies:
+    "@babel/plugin-transform-react-jsx-source": ^7.22.5
     "@preact/preset-vite": ^2.5.0
     "@tailwindcss/typography": ^0.5.9
     "@types/node": ^20.5.1
